@@ -5,8 +5,7 @@
 <div class="panel-body">
 
 <% @messages.each do |message| %>
-    <%= form_for(@message, html: {class: "form-inline" , id:'name'  'age'  'body' }) do |f| %>
-   
+
     <span class="label label-info">
     <%= message.name %></span>
 　　<span class="label label-success">
@@ -23,7 +22,7 @@
 
         )
       <br>
-    <% end %> 
+   
 <% end %>   
 
 
